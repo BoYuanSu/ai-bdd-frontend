@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "types": [
+      "vitest/globals",
+      "vitest/jsdom",
+      "@testing-library/jest-dom"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "target": "esnext"
+  },
+  "include": [
+    "./tests/**/*.ts",
+    "src/**/*.spec.ts"
+  ]
+}
