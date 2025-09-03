@@ -16,15 +16,21 @@
     "node": ">=22.0.0"
   },
   "devDependencies": {
+    "@amiceli/vitest-cucumber": "^5.2.0",
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/user-event": "^14.6.1",
     "@testing-library/vue": "^8.1.0",
+    "@types/jsdom": "^21.1.7",
     "@vitejs/plugin-vue": "^6.0.1",
+    "@vitejs/plugin-vue-jsx": "^5.1.1",
+    "@vitest/browser": "^3.2.4",
     "@vue/tsconfig": "^0.7.0",
     "jsdom": "^26.1.0",
+    "playwright": "^1.55.0",
     "typescript": "~5.8.3",
     "vite": "^7.1.2",
     "vitest": "^3.2.4",
+    "vitest-browser-vue": "^1.1.0",
     "vue-tsc": "^3.0.5"
   }
 }
