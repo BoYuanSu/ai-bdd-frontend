@@ -16,14 +16,15 @@ const fetchCart = () => {
   return Promise.resolve(res);
 };
 
-const addToCart = (payload: AddToCartPayload) => {
+const addToCart = (_payload: AddToCartPayload) => {
   //
 
   return Promise.resolve();
 };
 
-const removeFromCart = () => {
+const removeFromCart = (_id: string) => {
   //
+  return Promise.resolve();
 };
 
 export { fetchCart, addToCart, removeFromCart };
